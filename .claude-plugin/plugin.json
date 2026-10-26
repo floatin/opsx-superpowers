@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "OpenSpec workflow with built-in TDD + code review gates for Claude Code. Four-phase: explore → propose → apply → archive.",
   "author": {
-    "name": "austinxyz",
-    "url": "https://github.com/austinxyz"
+    "name": "floatin",
+    "url": "https://github.com/floatin"
   },
-  "repository": "https://github.com/austinxyz/opsx-superpowers",
+  "repository": "https://github.com/floatin/opsx-superpowers",
   "license": "MIT",
   "keywords": [
     "openspec",

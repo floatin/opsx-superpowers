@@ -120,7 +120,7 @@ Prerequisites (one-time, ~30 min):
 Setup per project:
 
 1. Install the opsx scaffolding (schema + 4 slash commands) — installer script in
-   [austinxyz/opsx-superpowers](https://github.com/austinxyz/opsx-superpowers)
+   [floatin/opsx-superpowers](https://github.com/floatin/opsx-superpowers)
    (branch `signadot`; sync from the validated hotrod-opsx copies is pending)
 2. In `openspec/config.yaml`, set:
    ```yaml

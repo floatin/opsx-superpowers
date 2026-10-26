@@ -63,7 +63,7 @@ Four convergences, one absorption, three things still ahead of upstream. When tw
 
 ## What I Changed
 
-Five edits, all on the [signadot branch](https://github.com/austinxyz/opsx-superpowers/tree/signadot):
+Five edits, all on the [signadot branch](https://github.com/floatin/opsx-superpowers/tree/signadot):
 
 1. **Fixed the breaking change.** Requirements and mocks artifacts now generate *inside* the change directory; `/opsx:propose` copies the canonical files in from `docs/` right after `openspec new change`. Side effect: `openspec status` is finally accurate for these artifacts — the old `{{date}}` placeholder gotcha is gone.
 2. **Added `/opsx:update`.** Adapted the upstream revision workflow, extended with the invariants upstream can't know about: stale Contract Spec fields (they're verbatim copies of SHALL statements — silent rot), already-written contract files, signadot plan assertions, and the rule that revising an EVAL-passed group must uncheck its gate.
@@ -131,6 +131,6 @@ Net: five of six addressed, one mostly. The critique is aimed at bare OpenSpec, 
 
 1. [OpenSpec releases](https://github.com/Fission-AI/OpenSpec/releases) — v1.4.0 through v1.11.0
 2. [Superpowers releases](https://github.com/obra/superpowers/releases) — v6.0.0 through v6.3.0
-3. [opsx-superpowers (signadot branch)](https://github.com/austinxyz/opsx-superpowers/tree/signadot) — the fork, with sync log in docs/workflow.md
+3. [opsx-superpowers (signadot branch)](https://github.com/floatin/opsx-superpowers/tree/signadot) — the fork, with sync log in docs/workflow.md
 4. [zijing-cup](https://github.com/austinxyz/zijing-cup) — the open-source practice project
 5. 骞先生, "从OpenSpec到AIDLC，我是如何提升团队AI代码质量的" — the SDD critique scored in this post; AIDLC source: [aidlc-skills](https://github.com/qtalen/aidlc-skills), upstream: AWS aidlc-workflows

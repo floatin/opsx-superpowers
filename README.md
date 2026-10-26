@@ -25,7 +25,7 @@ Each phase is a hard boundary. You cannot skip phases.
 ### 1. Install the plugin
 
 ```bash
-claude --plugin-url https://github.com/austinxyz/opsx-superpowers
+claude --plugin-url https://github.com/floatin/opsx-superpowers
 ```
 
 ### 2. Promote the schema (run once, and after each upgrade)
@@ -89,7 +89,7 @@ Then start your first change:
 
 ```bash
 # Pull latest plugin
-claude --plugin-url https://github.com/austinxyz/opsx-superpowers
+claude --plugin-url https://github.com/floatin/opsx-superpowers
 
 # Re-promote the schema (required after every upgrade)
 opsx-install

@@ -4,7 +4,7 @@
 
 **Goal:** Stand up `hotrod-opsx` with opsx-superpowers scaffolding installed, then extend the **installed local copies** with Signadot plan/validate wiring, plus both feature specs — ready for `/opsx:explore pickup-confirmation`.
 
-**Architecture:** ALL edits happen inside `hotrod-opsx`. Install first (Task 2), then modify the installed copies: `.claude/commands/opsx/*.md` (commands) and `openspec/schemas/superpowers-driven/templates/tasks.md` (project-local schema override copied in at install time). The `opsx-superpowers` source repo is NOT touched — after the integration is validated end-to-end here, changes sync back to `opsx-superpowers` in a separate pass (final section). Reference: [signadot-integration-spec.md](https://github.com/austinxyz/opsx-superpowers/blob/signadot/docs/signadot-integration-spec.md).
+**Architecture:** ALL edits happen inside `hotrod-opsx`. Install first (Task 2), then modify the installed copies: `.claude/commands/opsx/*.md` (commands) and `openspec/schemas/superpowers-driven/templates/tasks.md` (project-local schema override copied in at install time). The `opsx-superpowers` source repo is NOT touched — after the integration is validated end-to-end here, changes sync back to `opsx-superpowers` in a separate pass (final section). Reference: [signadot-integration-spec.md](https://github.com/floatin/opsx-superpowers/blob/signadot/docs/signadot-integration-spec.md).
 
 **Tech Stack:** OpenSpec CLI 1.2.x, opsx-superpowers schema/commands (markdown), Go (hotrod, context only).
 
@@ -136,7 +136,7 @@ Signadot plan/validate wiring is enabled (`openspec/config.yaml` → integration
 The opsx skills in `.claude/commands/opsx/` and the schema in `openspec/schemas/superpowers-driven/`
 are LOCAL copies extended for Signadot — iterate here; sync back to the opsx-superpowers repo
 only after the integration is validated end-to-end.
-Integration spec: https://github.com/austinxyz/opsx-superpowers/blob/signadot/docs/signadot-integration-spec.md
+Integration spec: https://github.com/floatin/opsx-superpowers/blob/signadot/docs/signadot-integration-spec.md
 
 ## Environment
 

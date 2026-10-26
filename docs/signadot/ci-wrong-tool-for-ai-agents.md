@@ -43,7 +43,7 @@ Both map cleanly onto spec-driven development. `signadot-plan` is a machine-read
 
 ## The Integration
 
-I integrated Signadot into [opsx-superpowers](https://github.com/austinxyz/opsx-superpowers/blob/signadot/docs/workflow-signadot.md), my OpenSpec + Superpowers stack. The integration lives in the `apply` phase, where evaluator subagents score completed implementation against group contracts.
+I integrated Signadot into [opsx-superpowers](https://github.com/floatin/opsx-superpowers/blob/signadot/docs/workflow-signadot.md), my OpenSpec + Superpowers stack. The integration lives in the `apply` phase, where evaluator subagents score completed implementation against group contracts.
 
 For groups that span multiple components, the evaluator now runs `signadot-plan` to define sandbox assertions, then calls `signadot-validate` against a live environment. For single-component groups, nothing changes. The sandbox is conditional — it only runs when multi-component behavior is what's actually being verified.
 
@@ -166,6 +166,6 @@ This post is part of the OpenSpec + Superpowers series:
 
 1. [Signadot](https://www.signadot.com/?utm_source=austin_blog&utm_medium=referral&utm_campaign=guest_blog) — sandbox platform used throughout this post
 2. Signadot — [CI for Coding Agents](https://thenewstack.io/ci-for-coding-agents/) — the piece that started this
-3. [opsx-superpowers (signadot branch)](https://github.com/austinxyz/opsx-superpowers/blob/signadot/docs/workflow-signadot.md) — workflow documentation for the Signadot integration
+3. [opsx-superpowers (signadot branch)](https://github.com/floatin/opsx-superpowers/blob/signadot/docs/workflow-signadot.md) — workflow documentation for the Signadot integration
 4. [hotrod](https://github.com/austinxyz/hotrod) — the test vehicle (Jaeger demo app, ride-sharing simulation)
 5. [Pickup confirmation eval log](https://github.com/austinxyz/hotrod/blob/opsx-setup/openspec/changes/archive/2026-07-18-pickup-confirmation/eval-log.md) — full evaluation output for the feature built in this post
